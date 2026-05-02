@@ -19,9 +19,9 @@ namespace ThreeLayerBizApp.Controllers
             return View(employees);
         }
 
-        public IActionResult Create()
+        public IActionResult Create()//returns view for create feature
         {
-            return View();
+            return View(); 
         }
 
         [HttpPost]
